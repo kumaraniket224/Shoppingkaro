@@ -218,3 +218,21 @@ background-color: #d1e8f2;
     #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
    }
+   .mode{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+
+   }
+
+   .Dark{
+
+background-color: black;
+color: white;
+   }
+
+
+   .light{
+    background-color: white;
+    color: black;
+   }
