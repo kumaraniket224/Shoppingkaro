@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoppping Karo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
     <a href="#">
         <form action="/action" id="form">
             <input type="text" class="sbtn" placeholder="Search for Shopping......">
-            <button class="btn"><img id="btni" src="search-icon.jpg" alt=""></button>
+            <button class="btn"><i class="fas fa-search"></i></button>
         </form>
     </a>
          
@@ -24,10 +25,11 @@
     <div>
         <ul id="navbar">
             <li><a  class="active" href="index.html">Home</a></li>
-            <li><a href="Allcategori.html">AllCategory</a></li>
+            <li><a href="Allcategory.html">AllCategory</a></li>
             <li><a href="orders.html">Orders</a></li>
             <li><a href="/shoppingkaro/loginpage/index.php">SIGN IN</a></li>
-            <li><a href="#"><img src="cart.png" class="carts" alt=""></a></li>
+            <li><a href="carts.html"> <button class="carts"><i class="fa-solid fa-cart-shopping"></i></button>
+                </a></li>
             <li><a href="#"><select name="lang" id="lang">
                 <option value="English"> EN</option>
                 <option value="Hindi">Hindi</option>
@@ -73,7 +75,16 @@
     </div>
 </section>
  
+<footer class="footer">
+    <hr>
+    <section class="fsection">
+<div id="fdiv1"> Contact us @shoppingkaro
+    <div>Returns</div>
+</div>
+<div id="fdiv2">Terms & Conditions</div>
 
+    </section>
+</footer>
 
     <script src="app.js"> </script>
 </body>
