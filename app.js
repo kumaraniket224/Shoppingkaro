@@ -15,3 +15,9 @@ mode.addEventListener("click", () => {
         body.classList.remove("Dark");
     }
 })
+
+let signIn = setTimeout(function(){
+    location : "/shoppingkaro/loginpage/index.php";
+    console.log("chal raha hai");
+}, 5000)
+
