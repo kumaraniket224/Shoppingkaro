@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="chalja()">
 
+    <center><img id="imglogo" src="logo.png" style="border-radius: 40%;  margin-top: 20%; background-color: black;"></center>
+
+<div id="main"  style="display: none;">
 <section id="header">
     <a href="#"> <img src="logo.png" class="logo" alt=""></a>
     <a href="#">
@@ -27,7 +30,7 @@
             <li><a  class="active" href="index.html">Home</a></li>
             <li><a href="Allcategory.html">AllCategory</a></li>
             <li><a href="orders.html">Orders</a></li>
-            <li><a href="/shoppingkaro/loginpage/index.php">SIGN IN</a></li>
+            <li  id="signIns"><a href="/shoppingkaro/loginpage/index.php">SIGN IN</a></li>
             <li><a href="carts.html"> <button class="carts"><i class="fa-solid fa-cart-shopping"></i></button>
                 </a></li>
             <li><a href="#"><select name="lang" id="lang">
@@ -85,6 +88,8 @@
 
     </section>
 </footer>
+
+</div>
 
     <script src="app.js"> </script>
 </body>

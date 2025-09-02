@@ -16,8 +16,11 @@ mode.addEventListener("click", () => {
     }
 })
 
-let signIn = setTimeout(function(){
-    location : "/shoppingkaro/loginpage/index.php";
-    console.log("chal raha hai");
-}, 5000)
+ function chalja(){
+    setTimeout(show, 1500);
+
+    function show(){
+        document.getElementById('main').style.display="block";
+    document.getElementById('imglogo').style.display="none"   }
+ }
 
